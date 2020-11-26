@@ -14,6 +14,7 @@ def spawn_number():
             break
         else:
             continue
+
 # function for detection lose
 def defeat():
     full_rows = 0
@@ -24,6 +25,7 @@ def defeat():
             full_rows += 1
     if full_rows == 4:
         return(1)
+
 # repair input eror
 def set_array():
     while True:
@@ -31,6 +33,7 @@ def set_array():
         if array != '':
             break
     return(array)
+
 # function for adding numbers
 def sums_numbers(list, array):
     option = len(list)
